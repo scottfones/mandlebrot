@@ -106,7 +106,7 @@ fn test_parse_complex() {
         parse_complex("1.25,-0.0615"),
         Some(Complex {
             re: 1.25,
-            im: -0.0625
+            im: -0.0615
         })
     );
     assert_eq!(parse_complex(",-0.0615"), None);
