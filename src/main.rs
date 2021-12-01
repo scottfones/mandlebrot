@@ -209,7 +209,7 @@ fn write_image(
     let encoder = PNGEncoder::new(output);
 
     encoder.encode(
-        &pixels,
+        pixels,
         bounds.0 as u32,
         bounds.1 as u32,
         ColorType::Gray(8),
